@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bom_home"
+        android:title="首页"
+        android:enabled="true"
+        android:icon="@drawable/shouye"
+        />
+
+    <item
+        android:id="@+id/bom_fuwu"
+        android:title="服务"
+        android:enabled="true"
+        android:icon="@drawable/fuwu"
+        />
+
+    <item
+        android:id="@+id/bom_dangjian"
+        android:title="活动"
+        android:enabled="true"
+        android:icon="@drawable/dangjian"
+        />
+
+    <item
+        android:id="@+id/bom_xinwen"
+        android:title="新闻"
+        android:enabled="true"
+        android:icon="@drawable/xinwen"
+        />
+
+    <item
+        android:id="@+id/bom_wode"
+        android:title="我的"
+        android:enabled="true"
+        android:icon="@drawable/wode"
+        />
+
+</menu>

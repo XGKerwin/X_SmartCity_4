@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginBottom="5dp"
+    android:background="#fff"
+    >
+    <TextView
+        android:id="@+id/txt_biaoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="公路硬化"
+        android:gravity="center"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_msg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:textSize="15dp"
+        android:text="焦泽松"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_qiuzhuren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="焦泽松"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="焦泽松"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:paddingLeft="10dp"
+        />
+
+
+
+</LinearLayout>

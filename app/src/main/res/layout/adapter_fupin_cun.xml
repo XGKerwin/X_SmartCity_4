@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="3dp"
+    android:id="@+id/layout"
+    >
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:src="#000"
+        android:id="@+id/img"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_title"
+            android:textSize="20dp"
+            android:text="樵山村"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_msg"
+            android:textSize="15dp"
+            android:paddingLeft="3dp"
+            android:lines="2"
+            android:text="樵山村以前以太平至泾县主干路的南北分别隶属泾县与旌德县管辖，57年后划归原太平县管辖至今。\n\n樵山村位于新明乡东北部，距乡政府15公里，地势东南高，西北低。座落在高山之中，东与泾县接壤，南、西、北分别与新明村、三合村相邻，平均海拔在500米以上"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_dizhi"
+            android:textSize="15dp"
+            android:text="樵山村"
+            android:textColor="#8C8C8C"
+            android:paddingLeft="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout"
+    android:layout_marginTop="20dp"
+    >
+
+    <com.example.x_smartcity_4.utl.MyImageView_yuan
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/img"
+        android:src="@mipmap/b_2"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="同仁医院"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="@style/MyRatinStyle"
+        android:layout_width="wrap_content"
+        android:isIndicator="false"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:numStars="4"
+        android:stepSize="1" />
+
+
+
+</LinearLayout>

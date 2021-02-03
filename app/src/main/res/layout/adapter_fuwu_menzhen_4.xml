@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#EDEDED"
+    android:layout_margin="2dp"
+    android:id="@+id/layout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="姓名："
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_time"
+            android:text="2020-10-2 周四 下午14：00"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:text="预约"
+            android:background="#FF6200EE"
+            android:textSize="15dp"
+            android:textColor="#DFDFDF"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:text="简介：山东省职业院校技能大赛是经山东省政府同意，省教育厅、财政厅、劳动和社会保障厅、经贸委联合决定，自2009年起，每年举办一次全省职业院校技能大赛。山东省职业院校技能大赛是专业覆盖面广、参赛选手多、社会影响大、联合主办部门全的省级职业院校技能赛事。"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/jianjie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:text="擅长：组织并维护安全高效的工作空间"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        />
+
+</LinearLayout>

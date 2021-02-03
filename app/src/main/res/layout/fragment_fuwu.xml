@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/a_biaoti_sousuo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/fuwu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智慧服务"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#CECEDD"
+                />
+
+            <TextView
+                android:id="@+id/yanglao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智慧养老"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#CECEDD"
+                />
+
+            <TextView
+                android:id="@+id/lvyou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智慧旅游"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#CECEDD"
+                />
+
+            <TextView
+                android:id="@+id/huanbao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智慧环保"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#CECEDD"
+                />
+
+            <TextView
+                android:id="@+id/yiliao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智慧医疗"
+                android:padding="10dp"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="#CECEDD"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#CECEDD"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recyclerview"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

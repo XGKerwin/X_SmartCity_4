@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/a_biaoti_menzhen"/>
+
+    <ViewFlipper
+        android:padding="4dp"
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:autoStart="true"
+        android:inAnimation="@anim/right_in"
+        android:outAnimation="@anim/right_out"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/txt_msg"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:text="首都医科大学附属北京同仁医院始建于1886年,是一所以眼科学、耳鼻咽喉科学为国家重点学科的大型综合三甲医院。今天的医院分为崇文门院区和亦庄院区…"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/btn_yuyue"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:background="#2196F3"
+            android:text="预约挂号"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

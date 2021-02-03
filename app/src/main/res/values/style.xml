@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="MyRatinStyle">
+
+
+        <item name="minHeight">4dp</item>
+        <item name="maxHeight">4dp</item>
+        <item name="minWidth">4dp</item>
+        <item name="maxWidth">4dp</item>
+        <item name="android:progressDrawable">@drawable/rating_bar</item>
+    </style>
+
+
+</resources>
